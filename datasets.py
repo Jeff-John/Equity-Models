@@ -1,12 +1,11 @@
-import pickle
-
-import requests
-import config
-import pandas as pd
 from termcolor import colored
-import iexDataProcessing
-import rawData
 from config import Printer
+import iexDataProcessing
+import pandas as pd
+import requests
+import rawData
+import pickle
+import config
 import time
 
 
