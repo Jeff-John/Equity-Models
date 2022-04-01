@@ -159,8 +159,6 @@ def set_builder(file, final_len=300):
         print(i)
 
 
-
-
 def simple_graph(file):
     df = open_excel(file, False)
     df = df[df["Symbol"] == "SNDL"]
